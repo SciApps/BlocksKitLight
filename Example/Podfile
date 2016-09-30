@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BlocksKitLight_Example' do
+  pod 'BlocksKitLight', :path => '../'
+
+  target 'BlocksKitLight_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
